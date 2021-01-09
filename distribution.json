@@ -321,16 +321,6 @@
           ]
         },
         {
-          "id": "net.optifine:optifine:1.16.4_HD_U_G5@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5770072,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
-            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea"
-          }
-        },
-        {
           "id": "OptiFine_1.16.4_HD_U_G5.jar",
           "name": "OptiFine_1.16.4_HD_U_G5.jar",
           "type": "File",
