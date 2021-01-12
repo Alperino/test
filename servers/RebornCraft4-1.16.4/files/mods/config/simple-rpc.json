@@ -1,0 +1,78 @@
+{
+  "discordid": "794739965636378654",
+  "enabled": true,
+  "debugging": false,
+  "version": 4,
+  "init": {
+    "_comment": "This is called while MC and Forge is loading",
+    "enabled": true,
+    "state": "Oyun başlatılıyor..",
+    "description": "Minecraft yükleniyor",
+    "largeImageKey": "logo",
+    "largeImageText": "play.reborncraft.pw",
+    "smallImageKey": "logo",
+    "smallImageText": "%player% (%mcver%)"
+  },
+  "main_menu": {
+    "_comment": "This is called when the player is on the main menu",
+    "enabled": true,
+    "state": "Ana Menü'de",
+    "description": "%player%",
+    "largeImageKey": "logo",
+    "largeImageText": "play.reborncraft.pw",
+    "smallImageKey": "logo",
+    "smallImageText": "%player% (%mcver%)"
+  },
+  "server_list": {
+    "_comment": "This is called when the player is on the multiplayer Screen",
+    "enabled": true,
+    "state": "Sunucu Seçiminde",
+    "description": "%player%",
+    "largeImageKey": "logo",
+    "largeImageText": "play.reborncraft.pw",
+    "smallImageKey": "logo",
+    "smallImageText": "%player% (%mcver%)"
+  },
+  "single_player": {
+    "_comment": "This is called when the player is playing in single player mode",
+    "enabled": false,
+    "state": "%player% tekoyuncu'da oynuyor",
+    "description": "Dünya: %world%",
+    "largeImageKey": "logo",
+    "largeImageText": "play.reborncraft.pw",
+    "smallImageKey": "logo",
+    "smallImageText": "play.reborncraft.pw",
+    "allowSpectate": false
+  },
+  "multi_player": {
+    "_comment": "This is called when the player is playing multi-player",
+    "enabled": true,
+    "state": "play.reborncraft.pw",
+    "description": "Oynuyor (%mcver%)",
+    "largeImageKey": "logo",
+    "largeImageText": "play.reborncraft.pw",
+    "smallImageKey": "logo",
+    "smallImageText": "%player% (%mcver%)",
+    "allowSpectate": false,
+    "allowJoin": false
+  },
+  "join_game": {
+    "_comment": "This is called when the player is joining a game",
+    "enabled": true,
+    "state": "Oynuyor",
+    "description": "%servername% (%ip%) %players% ",
+    "largeImageKey": "logo",
+    "largeImageText": "play.reborncraft.pw",
+    "smallImageKey": "logo",
+    "smallImageText": "%player% (%mcver%)"
+  },
+  "generic": {
+    "_comment": "This is a fallback event for when any of the above ones are disabled",
+    "state": "",
+    "description": "Oynuyor",
+    "largeImageKey": "logo",
+    "largeImageText": "play.reborncraft.pw",
+    "smallImageKey": "logo",
+    "smallImageText": "%player% (%mcver%)"
+  }
+}
