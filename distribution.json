@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "1868f6035298005b310b49d6f2e62a37",
+                "MD5": "44e5b3c61753dbd105586b6a33023884",
                 "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -321,85 +321,6 @@
           ]
         },
         {
-          "id": "me.hypherionmc.simplerpc:simple-rpc:1.16.4-${version}@jar",
-          "name": "Simple RPC",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 158864,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/discord.jar",
-            "MD5": "e9def0bc3747b4e2366c67fbfc1bb196"
-          }
-        },
-        {
-          "id": "me.hypherionmc.simplerpc:simple-rpc:1.16.4-${version}@jar",
-          "name": "Simple RPC",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 158864,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/optionalon/discord.jar",
-            "MD5": "e9def0bc3747b4e2366c67fbfc1bb196"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.optifine:optifine:1.16.4_HD_U_G5@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5770072,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
-            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea"
-          }
-        },
-        {
-          "id": "generated.forgemod:optifine:1.16.4_HD_U_G5@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5770072,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/optionalon/OptiFine_1.16.4_HD_U_G5.jar",
-            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "fml.toml",
-          "name": "fml.toml",
-          "type": "File",
-          "artifact": {
-            "size": 242,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/config/fml.toml",
-            "MD5": "5961f97ddaa04677acd58a89aaf3826c",
-            "path": "config/fml.toml"
-          }
-        },
-        {
-          "id": "forge-client.toml",
-          "name": "forge-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 1359,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/config/forge-client.toml",
-            "MD5": "c352e2faa854312ac4bf44773720b53f",
-            "path": "config/forge-client.toml"
-          }
-        },
-        {
-          "id": "forge-common.toml",
-          "name": "forge-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 310,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/config/forge-common.toml",
-            "MD5": "94977d1b9c60ebe6f0cfc34c0bbaa8c8",
-            "path": "config/forge-common.toml"
-          }
-        },
-        {
           "id": "simple-rpc.json",
           "name": "simple-rpc.json",
           "type": "File",
@@ -411,47 +332,25 @@
           }
         },
         {
-          "id": "OptiFine_1.16.4_HD_U_G5.jar",
-          "name": "OptiFine_1.16.4_HD_U_G5.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5770072,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/mods/OptiFine_1.16.4_HD_U_G5.jar",
-            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea",
-            "path": "mods/OptiFine_1.16.4_HD_U_G5.jar"
-          }
-        },
-        {
-          "id": "discord.jar",
-          "name": "discord.jar",
+          "id": "discordper.jar",
+          "name": "discordper.jar",
           "type": "File",
           "artifact": {
             "size": 158864,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/mods/discord.jar",
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/mods/discordper.jar",
             "MD5": "e9def0bc3747b4e2366c67fbfc1bb196",
-            "path": "mods/discord.jar"
+            "path": "mods/discordper.jar"
           }
         },
         {
-          "id": "optionsof.txt",
-          "name": "optionsof.txt",
+          "id": "preview_OptiFine_1.16.4_HD_U_G6_pre12.jar",
+          "name": "preview_OptiFine_1.16.4_HD_U_G6_pre12.jar",
           "type": "File",
           "artifact": {
-            "size": 1437,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/optionsof.txt",
-            "MD5": "a997442d145201c11b63a45ed40071eb",
-            "path": "optionsof.txt"
-          }
-        },
-        {
-          "id": "optionsshaders.txt",
-          "name": "optionsshaders.txt",
-          "type": "File",
-          "artifact": {
-            "size": 364,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/optionsshaders.txt",
-            "MD5": "2144bd2ffb143071ab904252d77a8099",
-            "path": "optionsshaders.txt"
+            "size": 5834340,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/mods/preview_OptiFine_1.16.4_HD_U_G6_pre12.jar",
+            "MD5": "a45c12b9e3b60dae17cfd3c2bfef7435",
+            "path": "mods/preview_OptiFine_1.16.4_HD_U_G6_pre12.jar"
           }
         }
       ]
