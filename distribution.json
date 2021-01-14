@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "b9c0e57620a7ba5eb0a0983703af27a7",
+                "MD5": "f3e12c17dc0cfde8d57237d64b1cb682",
                 "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -375,6 +375,17 @@
           }
         },
         {
+          "id": "OptiFine_1.16.4_HD_U_G5.jar",
+          "name": "OptiFine_1.16.4_HD_U_G5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5770072,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/mods/mods/OptiFine_1.16.4_HD_U_G5.jar",
+            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea",
+            "path": "mods/mods/OptiFine_1.16.4_HD_U_G5.jar"
+          }
+        },
+        {
           "id": "discord.jar",
           "name": "discord.jar",
           "type": "File",
@@ -383,17 +394,6 @@
             "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/mods/mods/discord.jar",
             "MD5": "e9def0bc3747b4e2366c67fbfc1bb196",
             "path": "mods/mods/discord.jar"
-          }
-        },
-        {
-          "id": "optifine.jar",
-          "name": "optifine.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5770072,
-            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/files/mods/mods/optifine.jar",
-            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea",
-            "path": "mods/mods/optifine.jar"
           }
         },
         {
@@ -675,7 +675,7 @@
           "artifact": {
             "size": 2932,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "b30e7aa7d20ea6ce55d95eea1a336276",
+            "MD5": "de4d6e7ccc87d3487ac890a38f661d16",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
@@ -684,9 +684,9 @@
           "name": "forge.cfg",
           "type": "File",
           "artifact": {
-            "size": 3027,
+            "size": 2952,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/config/forge.cfg",
-            "MD5": "c4214ff413a45df989890074db2bccc6",
+            "MD5": "f8a7b3dabe2a42453bfabd857e496b37",
             "path": "config/forge.cfg"
           }
         },
@@ -695,9 +695,9 @@
           "name": "forgeChunkLoading.cfg",
           "type": "File",
           "artifact": {
-            "size": 2025,
+            "size": 1978,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/config/forgeChunkLoading.cfg",
-            "MD5": "3ca5c1db39ac108e8abeab74450a4f1d",
+            "MD5": "68637513d7bb3a2f8528d6fbf427d7d6",
             "path": "config/forgeChunkLoading.cfg"
           }
         },
@@ -706,9 +706,9 @@
           "name": "simple-rpc.json",
           "type": "File",
           "artifact": {
-            "size": 2577,
+            "size": 2500,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/config/simple-rpc.json",
-            "MD5": "7372a3bbe67669b1a388e5f990458dc2",
+            "MD5": "1518a73853bbfd5ebf5de9513d61ea8f",
             "path": "config/simple-rpc.json"
           }
         },
@@ -719,8 +719,19 @@
           "artifact": {
             "size": 417,
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/config/splash.properties",
-            "MD5": "fb5728dddc8d3d2a3766dd6e74432331",
+            "MD5": "de0b1040d240a685901b7c75fd578458",
             "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "OptiFine_1.8.9_HD_U_L5.jar",
+          "name": "OptiFine_1.8.9_HD_U_L5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2517183,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/mods/OptiFine_1.8.9_HD_U_L5.jar",
+            "MD5": "2332fcdb59ca0e4ee79cddf8fe114d25",
+            "path": "mods/OptiFine_1.8.9_HD_U_L5.jar"
           }
         },
         {
@@ -732,17 +743,6 @@
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/mods/discordper.jar",
             "MD5": "e7d9685b6da802df91897969cf65015b",
             "path": "mods/discordper.jar"
-          }
-        },
-        {
-          "id": "optifine.jar",
-          "name": "optifine.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2016181,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/mods/optifine.jar",
-            "MD5": "3fe9651067eb2530bec631af15c8e1ac",
-            "path": "mods/optifine.jar"
           }
         },
         {
@@ -768,36 +768,14 @@
           }
         },
         {
-          "id": "options.txt",
-          "name": "options.txt",
+          "id": "3.png",
+          "name": "3.png",
           "type": "File",
           "artifact": {
-            "size": 2317,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/options.txt",
-            "MD5": "b0ff0c42655a80ad9d6beebc6bcba824",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "optionsof.txt",
-          "name": "optionsof.txt",
-          "type": "File",
-          "artifact": {
-            "size": 1280,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/optionsof.txt",
-            "MD5": "27d78d6fcd33dccc8e4fcf441eb95dee",
-            "path": "optionsof.txt"
-          }
-        },
-        {
-          "id": "optionsshaders.txt",
-          "name": "optionsshaders.txt",
-          "type": "File",
-          "artifact": {
-            "size": 14,
-            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/optionsshaders.txt",
-            "MD5": "dcfc2b5a88fc12846ab45dd58367551e",
-            "path": "optionsshaders.txt"
+            "size": 5900,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/3.png",
+            "MD5": "b407a7ed8d371ef85b0e12142a24587d",
+            "path": "resources/ben/3.png"
           }
         },
         {
@@ -809,6 +787,28 @@
             "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/Logo.png",
             "MD5": "175cfff6973e9adc808f0988397bd777",
             "path": "resources/ben/Logo.png"
+          }
+        },
+        {
+          "id": "alper.png",
+          "name": "alper.png",
+          "type": "File",
+          "artifact": {
+            "size": 5900,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/alper.png",
+            "MD5": "b407a7ed8d371ef85b0e12142a24587d",
+            "path": "resources/ben/alper.png"
+          }
+        },
+        {
+          "id": "blabla.png",
+          "name": "blabla.png",
+          "type": "File",
+          "artifact": {
+            "size": 1776864,
+            "url": "https://github.com/Alperino/test/raw/main/servers/reborncraft1-1.8.9/files/resources/ben/blabla.png",
+            "MD5": "48ac95c6289b540ca5219a1b6d9c94c7",
+            "path": "resources/ben/blabla.png"
           }
         },
         {

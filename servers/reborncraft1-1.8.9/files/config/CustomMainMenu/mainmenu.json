@@ -124,7 +124,7 @@
         {
             "images" : "ben:3.png",
             "animate" : false,
-            "animationSpeed" : 1,
+            "animationSpeed" : 0,
             "blur" : false,
             "gradient" : false
         }
