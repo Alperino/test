@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352363,
-                "MD5": "73a36f98667bba6f0c0e77bef9e05ff8",
+                "MD5": "1868f6035298005b310b49d6f2e62a37",
                 "url": "https://github.com/Alperino/test/raw/main/repo/lib/net/minecraft/client/1.16.4-20201102.104115/client-1.16.4-20201102.104115-srg.jar"
               },
               "subModules": []
@@ -321,6 +321,29 @@
           ]
         },
         {
+          "id": "me.hypherionmc.simplerpc:simple-rpc:1.16.4-${version}@jar",
+          "name": "Simple RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158864,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/discord.jar",
+            "MD5": "e9def0bc3747b4e2366c67fbfc1bb196"
+          }
+        },
+        {
+          "id": "me.hypherionmc.simplerpc:simple-rpc:1.16.4-${version}@jar",
+          "name": "Simple RPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158864,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/optionalon/discord.jar",
+            "MD5": "e9def0bc3747b4e2366c67fbfc1bb196"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.16.4_HD_U_G5@jar",
           "name": "OptiFine",
           "type": "ForgeMod",
@@ -328,6 +351,19 @@
             "size": 5770072,
             "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/required/OptiFine_1.16.4_HD_U_G5.jar",
             "MD5": "ca3cdce30bf731bbe34811ad0cc56cea"
+          }
+        },
+        {
+          "id": "generated.forgemod:optifine:1.16.4_HD_U_G5@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5770072,
+            "url": "https://github.com/Alperino/test/raw/main/servers/RebornCraft4-1.16.4/forgemods/optionalon/OptiFine_1.16.4_HD_U_G5.jar",
+            "MD5": "ca3cdce30bf731bbe34811ad0cc56cea"
+          },
+          "required": {
+            "value": false
           }
         },
         {
