@@ -6,9 +6,9 @@
       "name": "Minecraft 1.16.4",
       "description": "Minecraft 1.16.4 Versionu",
       "icon": null,
-      "version": "0.0.1"
+      "version": "0.0.1",
       "address": "play.reborncraft.pw",
-      "minecraftVersion": "1.16.4",
+      "minecraftVersion": "1.16.4"
     },
     {
       "id": "1.8.9",
